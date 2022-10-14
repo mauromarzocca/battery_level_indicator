@@ -86,7 +86,7 @@ body {
 }
 
 .charge__size:after {
-    content: counter(num);
+    content: counter(num)
 }
 
 .charge__teeth {
