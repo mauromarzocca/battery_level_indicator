@@ -69,7 +69,7 @@ body {
     width: 100%;
     transition: all .3s;
     background-color: lime;
-    animation: chargeAnimate 20s forwards;
+    animation: chargeBarAnimate 20s forwards;
 }
 
 .charge__size {
@@ -85,7 +85,7 @@ body {
     letter-spacing: 5px;
 }
 
-.charge__size::after {
+.charge__size:after {
     content: counter(num);
 }
 
