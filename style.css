@@ -113,14 +113,17 @@ body {
 }
 
 @keyframes counter {
-    0% {--num: 0};
-
-    50% {--num: 100};
-
-    0% {--num: 0};
+    0% {--num: 0}
+    50% {--num: 100}
+    0% {--num: 0}
 }
 
 @keyframes animate {
-    0% {transform: rotate(0)}
-    100% {transform: rotate(360deg)}
+    0% {
+        transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
 }
